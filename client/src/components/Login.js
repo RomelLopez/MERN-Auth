@@ -21,7 +21,7 @@ const Login = () => {
     };
     const sendRequest = async () => {
         const res = await
-            axios.post("http://localhost:5000/api/login", {
+            axios.post("https://immense-forest-91733.herokuapp.com/login", {
                 email: inputs.email,
                 password: inputs.password,
             }).catch((err) => console.log(err));
