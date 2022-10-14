@@ -7,7 +7,7 @@ const Welcome = () => {
 
     const refreshToken = async () => {
         const res = await axios
-            .get("https://immense-forest-91733.herokuapp.com/api/refresh", {
+            .get("http://localhost:5000/api/refresh", {
                 withCredentials: true,
             })
             .catch((err) => console.log(err));
@@ -17,7 +17,7 @@ const Welcome = () => {
     };
     const sendRequest = async () => {
         const res = await axios
-            .get("https://immense-forest-91733.herokuapp.com/api/user", {
+            .get("http://localhost:5000/api/user", {
                 withCredentials: true,
             })
             .catch((err) => console.log(err));
