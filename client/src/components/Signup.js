@@ -20,7 +20,7 @@ const Signup = () => {
     };
     const sendRequest = async () => {
         const res = await
-            axios.post("http://localhost:5000/api/signup", {
+            axios.post("https://immense-forest-91733.herokuapp.com/api/signup", {
                 name: inputs.name,
                 email: inputs.email,
                 password: inputs.password,

@@ -11,7 +11,7 @@ function Header() {
     const isLoggedIn = useSelector(state => state.isLoggedIn);
 
     const sendLogoutReq = async () => {
-        const res = await axios.post("http://localhost:5000/api/logout", null, {
+        const res = await axios.post("https://immense-forest-91733.herokuapp.com/api/logout", null, {
             withCredentials: true,
         });
         if (res.status === 200) {
