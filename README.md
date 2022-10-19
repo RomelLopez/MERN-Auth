@@ -1,0 +1,1 @@
+# MERN Authorization and Authentication application was created to showcase register, login, and logout functionality. The application uses bcryptic libraries to securely store passwords and tokens to verify users.
