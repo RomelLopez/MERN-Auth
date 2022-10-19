@@ -31,7 +31,6 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(inputs);
         //send http request
         sendRequest()
             .then(() => dispatch(authActions.login()))
